@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre');
+
+.container {
+  display: flex;
+  font-family: 'Proza Libre', sans-serif;
+  flex-direction: column;
+  margin: 150px auto;
+  width: 800px;
+}
+
+.inputField {
+  width: 400px;
+  height: 600px;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+}

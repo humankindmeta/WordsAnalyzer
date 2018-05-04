@@ -1,0 +1,41 @@
+.textArea {
+    width: 100%;
+    height: 250px;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 20px;
+}
+
+.mainContainer {
+    flex-wrap: wrap;
+}
+
+.itemContainer {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 8%;
+    align-self: flex-end;
+    margin: 10px 10px 25px;
+    border: solid 1px #e6e6e6;
+    box-shadow: 3px 1px 10px 0px #cecece;
+}
+
+.itemBackground {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 8em;
+    background: #ff558f;
+    border-top-right-radius: 45px;
+    padding-bottom: 20px;
+}
+
+.itemTitle {
+    color: white;
+    text-shadow: 0px 0px 1px #000;
+    transform: rotate(270deg) translateX(50%);
+}
+
+.itemOccurenciesNumber {
+    text-align: center;
+    padding: 15px 0;
+}
